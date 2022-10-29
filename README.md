@@ -5,16 +5,16 @@
 # Contributions are appreciated
 I Have Created a Demo Apk you can download and checkit by your self.
 
-##Documentation of App Setup
+## Documentation of App Setup
 
 
-###A) Manifest Structure
+### A) Manifest Structure
 The app was developed by Android Studio, please see the structure of Build Gradle and Android Manifest
  
 <img width="452" alt="Picture1" src="https://user-images.githubusercontent.com/73836896/198833427-45dfce34-c1d4-4c27-836b-786ee89c5be2.png">
 
 
-###B) Class Structure 
+### B) Class Structure 
 This is Main Class Structure
  
 <img width="263" alt="Picture2" src="https://user-images.githubusercontent.com/73836896/198833431-1fa4b009-8d7a-4b45-b47f-94a7b7bf57f5.png">
@@ -24,7 +24,7 @@ This is Main Class Structure
 
 
 
-###C) Change Admob ID
+### C) Change Admob ID
 Go to SplashLaunchActivity.java and replace id with your AdMob & Facebook
 
 
