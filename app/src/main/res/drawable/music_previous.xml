@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="50dp" android:width="48dp" android:viewportWidth="48" android:viewportHeight="50">
+    <group>
+        <clip-path android:pathData="M0.454,0.262h47.525v48.743h-47.525z"/>
+        <path android:fillColor="#ffffff" android:pathData="M19.962,36.607C21.168,36.607 22.189,35.679 22.189,33.961V25.051C22.36,25.7 22.839,26.257 23.674,26.752L39.439,36.034C40.057,36.406 40.583,36.607 41.218,36.607C42.424,36.607 43.445,35.679 43.445,33.961V14.948C43.445,13.231 42.424,12.303 41.218,12.303C40.583,12.303 40.073,12.504 39.439,12.875L23.674,22.158C22.824,22.653 22.36,23.21 22.189,23.859V14.948C22.189,13.231 21.168,12.303 19.962,12.303C19.327,12.303 18.817,12.504 18.183,12.875L2.418,22.158C1.32,22.807 0.856,23.565 0.856,24.447C0.856,25.344 1.32,26.103 2.418,26.752L18.183,36.034C18.801,36.406 19.327,36.607 19.962,36.607Z"/>
+    </group>
+</vector>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="1dp"
+        app:cardElevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/native_ad_main_image" />
+
+            <RelativeLayout
+                android:id="@+id/middle"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/native_ad_main_image"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <RelativeLayout
+                    android:id="@+id/leftad"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_height="50dp"
+                        android:layout_width="50dp"
+                        android:id="@+id/native_ad_icon_image" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_toLeftOf="@+id/rightad"
+                    android:layout_toRightOf="@+id/leftad"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="MoPub"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:id="@+id/native_ad_title" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Success Ads Load"
+                        android:textSize="12dp"
+                        android:id="@+id/native_ad_text" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/rightad"
+                    android:gravity="center|bottom"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <TextView
+                            android:layout_margin="3dp"
+                            android:text="Install"
+                            android:textSize="16dp"
+                            android:gravity="center"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:id="@+id/native_sponsored_text_view" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:gravity="center"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
+                                android:text="Sponsored"
+                                android:textSize="15dp" />
+
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:id="@+id/native_ad_privacy_information_icon_image"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:padding="10dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

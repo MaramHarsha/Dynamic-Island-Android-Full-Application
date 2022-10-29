@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3a86ff</color>
+    <color name="colorPrimaryDark">#3a86ff</color>
+    <color name="colorAccent">#3a86ff</color>
+
+    <color name="colorlight">#eaf4ff</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blackads">#1a1a1a</color>
+    <color name="black1">#4c4c4c</color>
+
+
+    <color name="colorbtn1">#ffb979</color>
+    <color name="colorbtn2">#7f90ff</color>
+    <color name="colorbtn3">#ff7b7c</color>
+    <color name="colorbtn4">#c67cff</color>
+    <color name="colorbtn5">#7abe20</color>
+    <color name="colorbtn6">#ff447f</color>
+    <color name="colorbtn7">#ff791b</color>
+    <color name="colorbtn8">#ff7ce8</color>
+    <color name="colorGrey">#808080</color>
+
+
+
+    <color name="blue_800">#1565c0</color>
+    <color name="blue_500">#2196f3</color>
+    <color name="purple_400">#ab47bc</color>
+    <color name="red_500">#f44336</color>
+    <color name="blue_400">#42a5f5</color>
+    <color name="green_400">#66bb6a</color>
+    <color name="green_500">#4caf50</color>
+    <color name="grid_item_bg">#1a1b1d</color>
+    <color name="default_background_color">#8800ff</color>
+    <color name="default_glow_color">#885bfc</color>
+    <color name="default_noti_color">#1690fe</color>
+    <color name="default_wallpaper_color">#b82f48</color>
+    <color name="app_txt_colr">#444444</color>
+    <color name="background">#ff171717</color>
+    <color name="grey_200">#eeeeee</color>
+    <color name="bottomSheetDividerColor">@color/grey_200</color>
+    <color name="btm_selct">#ff494646</color>
+    <color name="card_divider_color">#ffffffff</color>
+    <color name="cardview_color">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlue">#42a5f5</color>
+    <color name="colorGreen">#4caf50</color>
+    <color name="colorPointer">#222222</color>
+    <color name="colorPrimaryLight">#424242</color>
+    <color name="colorPurple">#9c27b0</color>
+    <color name="colorRed">#b71c1c</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorYellow">#ffd54f</color>
+    <color name="color_background">#4b4b4b</color>
+    <color name="color_progress">#fbfbfb</color>
+    <color name="color_text">@android:color/black</color>
+    <color name="control_center_txt_color">#565855</color>
+    <color name="dr_txt">#ff515050</color>
+    <color name="dr_txt_selc">#ff686868</color>
+    <color name="gmai_color">#ffd93025</color>
+    <color name="gray">#656565</color>
+    <color name="grayFontColor">#424242</color>
+    <color name="gray_transparent">#77222222</color>
+    <color name="green">#04cb69</color>
+    <color name="header">#ff101010</color>
+    <color name="home_back_color">#f2f2f2</color>
+    <color name="media_time_color">#dddddd</color>
+    <color name="off_button">#656565</color>
+    <color name="on_button">#ffffff</color>
+    <color name="on_text">#f5f5f5</color>
+    <color name="orange">#ff9a1e</color>
+    <color name="nav_unselected_color">#e61b1919</color>
+    <color name="negativeButtonTextColor">@color/colorAccent</color>
+    <color name="noti_action_text_color">#008577</color>
+    <color name="panel_bg">#77f2f2f2</color>
+    <color name="panel_bg_color">#f0f2f5</color>
+    <color name="pattren_dot_color">#ffffff</color>
+    <color name="pin_field_color">#33ffffff</color>
+    <color name="positiveButtonTextColor">@color/colorAccent</color>
+    <color name="preference_fallback_accent_color">#ff008577</color>
+    <color name="press">#ff01b9ff</color>
+    <color name="reply_bg_color">#77b3c9e0</color>
+    <color name="selected">#1690fe</color>
+    <color name="setting_seperate_color">#f1f1f1</color>
+    <color name="setting_tv_color">#2e2e2e</color>
+    <color name="setting_tv_color_blue">#0084d0</color>
+    <color name="start_btn_color">#bfff4081</color>
+    <color name="tab_bar_color">#ffffff</color>
+    <color name="thumb_color">#0481ff</color>
+    <color name="track_color">#b3c9e0</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparentFullWhite">#01ffffff</color>
+    <color name="transparentWhite">#77ffffff</color>
+    <color name="un_selected">#e5e5e5</color>
+
+</resources>

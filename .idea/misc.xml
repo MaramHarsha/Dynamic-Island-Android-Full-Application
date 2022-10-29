@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_data_prefs.xml" value="0.14130434782608695" />
+        <entry key="..\:/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_drawer.xml" value="0.14130434782608695" />
+        <entry key="..\:/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_full_screen_view.xml" value="0.14130434782608695" />
+        <entry key="..\:/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_help.xml" value="0.22" />
+        <entry key="..\:/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_home.xml" value="0.1408514492753623" />
+        <entry key="..\:/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_permission.xml" value="0.3333333333333333" />
+        <entry key="..\:/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_splash_launch.xml" value="0.16666666666666666" />
+        <entry key="..\:/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_start.xml" value="0.1" />
+        <entry key="..\:/Dynamic Island/DynamicIsland/app/src/main/res/layout/ad_unified.xml" value="0.1" />
+        <entry key="..\:/Dynamic Island/DynamicIsland/app/src/main/res/layout/ad_unified_black.xml" value="0.5" />
+        <entry key="..\:/Dynamic Island/DynamicIsland/app/src/main/res/layout/adapter_material_color_picker.xml" value="0.1" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/drawable/battery_00.xml" value="0.3025" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/drawable/camera_count.xml" value="0.156" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/drawable/circle_green.xml" value="0.1065" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/drawable/dataa.xml" value="0.134" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/drawable/ic_cc_qs_cellular_on.xml" value="0.158" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/drawable/selectable_item_borderless.xml" value="0.18" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_app_home_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_data_prefs.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_exit_app.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_full_screen_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_help.xml" value="0.14635416666666667" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_home.xml" value="0.14635416666666667" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_permission.xml" value="0.14635416666666667" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_splash_launch.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/activity_start.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/adapter_material_color_picker.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/ads_admob_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/ads_banner_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/applist_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/apps_list_item_entry.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/dialog_choose_app.xml" value="0.14635416666666667" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/dialog_color_picker.xml" value="0.1" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/empty.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/expand_button.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/expanding_tip_item.xml" value="0.14635416666666667" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/extra_settings.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/flag_bubble_colorpickerview_skydoves.xml" value="0.14635416666666667" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/fragment_settings2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/fragment_theme.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/grid_item_photo.xml" value="0.33" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/grid_lock_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/grid_theme_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/image_frame.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/main_progress_bar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/mopub_native_ads.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/nav_header_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/nordan_alert_dialog.xml" value="0.25" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/nordan_loading_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/notification_action_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/notification_call_items.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/notification_icon_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/notification_list_items.xml" value="0.14635416666666667" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/notification_list_sub_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/notification_media_action.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/notification_media_cancel_action.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/notification_min_row_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/popup_dialog_exit.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/popupset.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/preference.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/qureka_app_open_ad.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/rating_dialog.xml" value="0.14635416666666667" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/status_bar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/wallpapers_category_layout.xml" value="0.14635416666666667" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/layout/wallpapers_fragment_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/menu/navigation.xml" value="0.14635416666666667" />
+        <entry key="..\:/Husen20/CodeSales/Apps/Dynamic Island/Dynamic Island/DynamicIsland/app/src/main/res/menu/navigation_btm.xml" value="0.17135416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

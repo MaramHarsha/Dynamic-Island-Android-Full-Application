@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:id="@+id/pbLoader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyle"/>
+    <ImageView android:id="@+id/imgFullscreen" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="55dp" android:layout_marginBottom="43dp" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/llSetWallpaper" android:background="@drawable/btn_rounded_corner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginBottom="10dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="@drawable/ico_apply"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/llShare" android:background="@drawable/btn_rounded_corner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="@drawable/icon_share_round"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/llDownloadWallpaper" android:background="@drawable/btn_rounded_corner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="@drawable/ico_download"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

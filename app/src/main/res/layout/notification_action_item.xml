@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="15sp" android:textStyle="bold" android:textColor="@color/noti_action_text_color" android:id="@+id/actionBtn" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="..." android:textAllCaps="true"/>

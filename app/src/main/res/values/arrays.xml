@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="listArray">
+        <item>2GB</item>
+        <item>5GB</item>
+        <item>10GB</item>
+    </array>
+    <array name="listArray1">
+        <item>1st Week</item>
+        <item>2nd Week</item>
+        <item>3rd Week</item>
+        <item>4rt Week</item>
+    </array>
+    <array name="listArray_bgType">
+        <item>@string/solid_color</item>
+        <item>@string/live_blur</item>
+        <item>@string/image_blur</item>
+    </array>
+    <array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+    <array name="listValues1">
+        <item>1</item>
+        <item>14</item>
+        <item>21</item>
+        <item>28</item>
+    </array>
+    <array name="listValues_bgType">
+        <item>color</item>
+        <item>live_blur</item>
+        <item>image_blur</item>
+    </array>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.mmin18.widget.RealtimeBlurView
+        android:id="@+id/real_time_blur"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:realtimeBlurRadius="80dp"
+        app:realtimeOverlayColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/dr_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:text="@string/drawer_app_name"
+        android:textColor="@color/dr_txt"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dr_app_name"
+        android:layout_marginTop="65dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bg_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/dr_txt_selec"
+            android:gravity="center"
+            android:visibility="gone"
+            android:padding="7dp"
+            android:text="Background"
+            android:textColor="@color/dr_txt_colr_change_selc"
+            android:textSize="@dimen/dr_txt_size" />
+
+        <TextView
+            android:id="@+id/remove_ads_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/dr_txt_selec"
+            android:gravity="center"
+            android:padding="7dp"
+            android:visibility="gone"
+            android:text="Remove AD"
+            android:textColor="@color/dr_txt_colr_change_selc"
+            android:textSize="@dimen/dr_txt_size" />
+
+        <TextView
+            android:id="@+id/permission_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/dr_txt_selec"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="Permission Screen"
+            android:textColor="@color/dr_txt_colr_change_selc"
+            android:textSize="@dimen/dr_txt_size" />
+
+        <TextView
+            android:id="@+id/rate_us_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/dr_txt_selec"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="Rate Us!"
+            android:textColor="@color/dr_txt_colr_change_selc"
+            android:textSize="@dimen/dr_txt_size" />
+
+        <TextView
+            android:id="@+id/more_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/dr_txt_selec"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="More"
+            android:textColor="@color/dr_txt_colr_change_selc"
+            android:textSize="@dimen/dr_txt_size" />
+    </LinearLayout>
+</RelativeLayout>

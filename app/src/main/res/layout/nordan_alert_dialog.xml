@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:cardBackgroundColor="@android:color/white" app:cardCornerRadius="10dp" app:cardElevation="16dp" app:cardUseCompatPadding="true">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@+id/relative_header" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:id="@+id/background" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="80dp"/>
+                <pl.droidsonroids.gif.GifImageView android:id="@+id/icon" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="70dp" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/relative_header">
+                <com.google.android.material.textview.MaterialTextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/grayFontColor" android:gravity="center" android:id="@+id/title" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_tittle" android:layout_centerHorizontal="true" android:fontFamily="@font/product_sans_regular" android:textAlignment="center" android:elegantTextHeight="true"/>
+                <com.google.android.material.textview.MaterialTextView android:textSize="16sp" android:gravity="center" android:id="@+id/message" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/dialog_message" android:layout_below="@+id/title" android:fontFamily="@font/product_sans_regular" android:textAlignment="center" android:elegantTextHeight="true"/>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:weightSum="100" android:layout_below="@+id/message" android:layout_centerHorizontal="true">
+                    <Button android:id="@+id/negativeBtn" android:text="@android:string/cancel" android:layout_weight="50" style="@style/NordanDialogButtonTextTheme"/>
+                    <Button android:id="@+id/positiveBtn" android:text="@android:string/ok" android:layout_weight="50" style="@style/NordanDialogButtonTheme"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

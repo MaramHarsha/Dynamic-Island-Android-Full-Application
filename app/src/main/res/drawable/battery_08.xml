@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/battery_icon_size" android:width="@dimen/battery_icon_size" android:viewportWidth="32" android:viewportHeight="32">
+    <path android:fillColor="#37652c" android:pathData="M5,7L24,7A5,5 0,0 1,29 12L29,19A5,5 0,0 1,24 24L5,24A5,5 0,0 1,0 19L0,12A5,5 0,0 1,5 7z"/>
+    <path android:fillColor="#37652c" android:pathData="M31,12L31,12A1,1 0,0 1,32 13L32,17A1,1 0,0 1,31 18L31,18A1,1 0,0 1,30 17L30,13A1,1 0,0 1,31 12z"/>
+    <path android:fillColor="#8dfc63" android:pathData="M0,15C0,12.2 0,10.8 0.545,9.73C1.024,8.789 1.789,8.024 2.73,7.545C3.8,7 5.2,7 8,7H21V24H8C5.2,24 3.8,24 2.73,23.455C1.789,22.976 1.024,22.211 0.545,21.27C0,20.2 0,18.8 0,16V15Z"/>
+</vector>

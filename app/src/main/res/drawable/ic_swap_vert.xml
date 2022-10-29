@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:name="cellular" android:height="24dp" android:width="24dp" android:viewportWidth="178" android:viewportHeight="178">
+    <group android:pivotX="89" android:pivotY="89" android:scaleX="2" android:scaleY="2">
+        <group android:name="group_1">
+            <path android:name="left" android:pathData="M 78.1 6.5 L 78.1 161.9" android:strokeColor="#fff" android:strokeWidth="7" android:trimPathStart="0.366" android:trimPathEnd="0.7" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeMiterLimit="10"/>
+            <path android:name="left_tri" android:fillColor="#fff" android:pathData="M 75.6 117.9 L 63.3 105.6 C 62.7 105 63.1 103.9 64 103.9 L 75.6 103.9 L 75.6 117.9 Z" android:strokeWidth="1"/>
+        </group>
+        <group android:name="group_2">
+            <path android:name="right" android:fillColor="#fff" android:pathData="M 100.5 6.5 L 100.5 161.9" android:strokeColor="#fff" android:strokeWidth="7" android:trimPathStart="0.366" android:trimPathEnd="0.7" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeMiterLimit="10"/>
+            <path android:name="right_tri" android:fillColor="#fff" android:pathData="M 103 61 L 115.3 73.3 C 115.9 73.9 115.5 75 114.6 75 L 103 75 L 103 61 Z" android:strokeWidth="1"/>
+        </group>
+    </group>
+</vector>

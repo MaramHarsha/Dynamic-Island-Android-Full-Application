@@ -1,0 +1,12 @@
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:toXScale="0.0"
+    android:fromXScale="1.0"
+
+    android:toYScale="0.0"
+    android:fromYScale="1.0"
+
+    android:pivotX="50%"
+    android:pivotY="50%"
+
+    android:startOffset="100"
+    android:duration="300" />

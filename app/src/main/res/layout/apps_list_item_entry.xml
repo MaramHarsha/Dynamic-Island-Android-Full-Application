@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/normal_margin">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:padding="@dimen/medium_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/medium_margin" android:layout_toLeftOf="@+id/cb_apps">
+            <ImageView android:id="@+id/iv_icon" android:layout_width="35dp" android:layout_height="35dp" android:src="@drawable/alert"/>
+            <TextView android:textSize="14sp" android:textColor="@android:color/black" android:layout_gravity="center_vertical" android:id="@+id/tv_app_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/medium_margin" android:text="Skype"/>
+        </LinearLayout>
+        <CheckBox android:id="@+id/cb_apps" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/normal_margin" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</RelativeLayout>

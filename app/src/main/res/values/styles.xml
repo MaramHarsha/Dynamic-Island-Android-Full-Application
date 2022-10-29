@@ -1,0 +1,106 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionMenuTextColor">@color/app_txt_colr</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryDark">@color/blue_800</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="drawerArrowStyle">@style/DrawerIconStyle</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="AppTheme">
+    </style>
+    <style name="AppTheme.HomeActivity" parent="AppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="AppTheme">
+    </style>
+
+    <style name="DrawerArrowStyle">
+        <item name="color">@color/black</item>
+        <item name="spinBars">true</item>
+    </style>
+
+    <style name="DrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/black</item>
+    </style>
+
+    <style name="DialogTheme" parent="@android:style/Theme.Translucent.NoTitleBar" />
+
+    <style name="AlertDialogCustom">
+        <item name="colorPrimary">@color/green_500</item>
+    </style>
+
+    <style name="AndroidThemeColorAccentYellow">
+        <item name="android:colorAccent">#ffffff00</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay">
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Avatar">
+        <item name="cornerFamily">@null</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="ToolbarTheme">
+        <item name="colorControlNormal">@color/app_txt_colr</item>
+    </style>
+
+    <style name="NordanDialogButtonTextTheme">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:elegantTextHeight">true</item>
+        <item name="fontFamily">@font/product_sans_regular</item>
+        <item name="singleLine">true</item>
+    </style>
+
+    <style name="NordanDialogButtonTheme">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:elegantTextHeight">true</item>
+        <item name="fontFamily">@font/product_sans_regular</item>
+        <item name="singleLine">true</item>
+    </style>
+
+    <style name="NordanDialogPopTheme">
+        <item name="android:windowAnimationStyle">@style/NordanDialogPopTheme1</item>
+    </style>
+
+    <style name="NordanDialogPopTheme1">
+        <item name="android:windowEnterAnimation">@anim/pop_in</item>
+        <item name="android:windowExitAnimation">@anim/pop_out</item>
+    </style>
+
+    <style name="NordanDialogSideTheme">
+        <item name="android:windowAnimationStyle">@style/NordanDialogSideTheme1</item>
+    </style>
+    <style name="NordanDialogSideTheme1">
+        <item name="android:windowEnterAnimation">@anim/side_in</item>
+        <item name="android:windowExitAnimation">@anim/side_out</item>
+    </style>
+    <style name="NordanDialogSlideTheme">
+        <item name="android:windowAnimationStyle">@style/NordanDialogSlideTheme1</item>
+    </style>
+    <style name="NordanDialogSlideTheme1">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+
+</resources>

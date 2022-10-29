@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_gravity="center" android:id="@+id/icon_layout" android:layout_width="100dp" android:layout_height="100dp">
+        <ProgressBar android:id="@+id/progress" android:visibility="visible" android:layout_width="20dp" android:layout_height="20dp" android:scaleType="center" android:layout_centerInParent="true" style="?android:attr/progressBarStyleSmall"/>
+        <ImageView android:id="@+id/app_icon_theme" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:layout_width="15dp" android:layout_height="15dp" android:src="@drawable/ad_img" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="14sp" android:textColor="@color/colorWhite" android:gravity="center" android:layout_gravity="center" android:id="@+id/app_name_theme" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginTop="6dp" android:layout_marginBottom="10dp"/>
+</LinearLayout>

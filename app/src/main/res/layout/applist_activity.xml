@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_above="@+id/btm1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/search_field"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:drawableLeft="@drawable/search_n"
+            android:hint="@string/search"
+            android:lines="1"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@color/setting_tv_color" />
+
+        <com.view.SpringBackLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/buttons_layout"
+            android:layout_below="@+id/search_field"
+            app:scrollOrientation="2">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_apps"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@android:color/transparent"
+                android:padding="@dimen/normal_margin" />
+        </com.view.SpringBackLayout>
+
+        <RelativeLayout android:id="@+id/buttons_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/toggle_size" android:layout_marginBottom="@dimen/toggle_size" android:layout_alignParentBottom="true">
+            <TextView android:textSize="16sp" android:textColor="@android:color/black" android:id="@+id/tv_ok" android:padding="@dimen/normal_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OK" android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/toggle_size"
+                android:layout_toLeftOf="@+id/tv_ok"
+                android:padding="@dimen/normal_margin"
+                android:text="CANCEL"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btm1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+        <include
+            android:id="@+id/custom_ad_banner"
+            layout="@layout/ads_banner_layout"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
